@@ -11,16 +11,18 @@ Build with HTML5, PhoneGap, and PouchDB.
 
 ```bash
 git clone https://github.com/airships/tracker.git && cd tracker
-npm install
 npm install -g webpack-dev-server bower
-bower install
+npm install
 ```
 
 # Development
 
 ```bash
-# Run the development server
-webpack-dev-server -d --colors
+# Run webpack-dev-server
+gulp
+
+# Or manually run webpack if needed
+webpack -d --colors
 ```
 
 # TODO
